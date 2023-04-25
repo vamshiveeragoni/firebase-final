@@ -20,7 +20,7 @@ describe('dashboard', () => {
     cy.get('app-hero-search').should('contain', 'Hero Search');
   });
 
-  it(`can search for Vamshi`, () => {
+  it(`can search for Vamshi Veeragoni`, () => {
     cy.contains('Top Heroes - This is Vamshi Veeragoni');
   });
 
